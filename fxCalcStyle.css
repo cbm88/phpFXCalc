@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 28, 2017, 5:37:16 PM
+    Author     : Mark Rustad
+*/
+
+body{
+    background: url(greyBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+    height: 100%;
+}
+
+hr{
+    position: relative;
+    top: 115px;
+}
+
+header{
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    left: 325px;
+    top: 10px;
+    display: block;
+}
+
+#container{
+    background: honeydew no-repeat;
+    background-size: cover;
+    border: darkslategray solid 5px;
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    height: 100px;
+    width: fit-content;
+    display: inline-block;
+    align-self: center;
+    margin: 8px;
+    padding: 6px;
+}
+
+#outputText{
+    background-color: lightgray;
+}
+
+#convertButton{
+    position: absolute;
+    top: 50px;
+    left: 33%;
+}
+
+#resetButton{
+    position: absolute;
+    top: 50px;
+    left: 55%;
+}
+
+#logoutButton{
+    position: absolute;
+    float: right;
+    font-size: smaller;
+}
